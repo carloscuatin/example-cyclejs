@@ -1,0 +1,30 @@
+{
+  "name": "example-cyclejs",
+  "version": "1.0.0",
+  "description": "example app using cyclejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloscuatin/example-cyclejs.git"
+  },
+  "keywords": [
+    "cyclejs",
+    "example",
+    "functional",
+    "reactive"
+  ],
+  "author": "Carlos Cuatin <cecg1996@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carloscuatin/example-cyclejs/issues"
+  },
+  "homepage": "https://github.com/carloscuatin/example-cyclejs#readme",
+  "dependencies": {
+    "@cycle/core": "^6.0.3",
+    "@cycle/dom": "^9.1.0",
+    "rx": "^4.0.8"
+  }
+}
