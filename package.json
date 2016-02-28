@@ -4,7 +4,7 @@
   "description": "example app using cyclejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --config webpack.config.js --progress --inline"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,11 @@
     "@cycle/core": "^6.0.3",
     "@cycle/dom": "^9.1.0",
     "rx": "^4.0.8"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.5.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
   }
 }
